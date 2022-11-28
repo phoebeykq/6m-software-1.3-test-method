@@ -15,9 +15,13 @@ const bookIdArr = ["NLB1", "NLB2", "NLB3", "NLB4"];
 const bookTitle = ["Lord of the Rings", "Programming for Dummies", "Introduction to Software Testing", "How to be a Software Developer"];
 let booksObj = {}; 
 
-function convert(keyArr, valueArr){
-    
+function convert(keyArr, valueArr) {
     // Add code here
+    let booksObj = {}; 
+    for (let i = 0; i < keyArr.length; i++) {
+        booksObj[keyArr[i]] = valueArr[i]; 
+    }
+    return booksObj; 
     /*
         Tips:
         - Step 1: Create a local scoped object literal.
@@ -27,14 +31,17 @@ function convert(keyArr, valueArr){
     */
 }
 
-function printByKey(key){
-    console.log(booksObj[key]);
+function printByKey(key) {
+    console.log(booksObj[key]); 
 }
 
-booksObj = convert(bookIdArr, bookTitle);
+booksObj = convert(bookIdArr, bookTitle); 
 printByKey("NLB2"); // prints "Progamming for Dummies"
 
 // Ignore the code below this line
 module.exports = {
     convert
 }
+
+console.log(); 
+console.log(booksObj); 
