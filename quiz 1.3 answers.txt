@@ -11,7 +11,7 @@ Q4: What test deals with testing multiple software modules together as a group?
 B: Integration testing
 
 Q5: What test determines the peak load and/or how many requests can the system receive.
-A: Load testing
+B: Stress testing
 
 Q6: Each programming language has only one testing framework dedicated to it.
 B: False
