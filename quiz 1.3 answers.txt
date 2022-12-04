@@ -14,7 +14,7 @@ Q5: What test determines the peak load and/or how many requests can the system r
 B: Stress testing
 
 Q6: Each programming language has only one testing framework dedicated to it.
-B: False
+
 
 Q7: Which of the following is NOT a primitive data type in JavaScript?
 C: object
