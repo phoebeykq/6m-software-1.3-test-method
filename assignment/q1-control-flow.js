@@ -11,7 +11,6 @@ let env = "DEV"; // Toggle between these possible values "DEV" | "STAGE" | "PROD
 let databaseCredential = "devuser:password"; 
 
 // Task: Add code here
-
 function switchCheck(env) {
     switch (env) {
     case "STAGE": 

@@ -8,9 +8,11 @@ const studentList = ["Johnson", "Christina", "Michael", "Lina", "Larry", "Michel
 
 function printStudentNames() {
     // Add code here
+    console.log("The students in this class are: "); 
+    console.log(); 
     for (let i = 0; i < studentList.length; i++) {
         const nameOfStudent = studentList[i]; 
-        console.log(nameOfStudent); 
+        console.log("•", nameOfStudent); 
     }
 }
 

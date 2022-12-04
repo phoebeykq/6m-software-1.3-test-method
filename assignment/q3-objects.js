@@ -11,8 +11,8 @@
     - Be sure got use google!
 */
 
-const bookIdArr = ["NLB1", "NLB2", "NLB3", "NLB4"];
-const bookTitle = ["Lord of the Rings", "Programming for Dummies", "Introduction to Software Testing", "How to be a Software Developer"];
+const bookIdArr = ["NLB1", "NLB2", "NLB3", "NLB4"]; 
+const bookTitle = ["Lord of the Rings", "Programming for Dummies", "Introduction to Software Testing", "How to be a Software Developer"]; 
 let booksObj = {}; 
 
 function convert(keyArr, valueArr) {
